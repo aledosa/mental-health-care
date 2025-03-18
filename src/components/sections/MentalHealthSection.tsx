@@ -50,8 +50,8 @@ export default function MentalHealthSection() {
       description: "",
       number: "800-911-2000",
       mail: "lalineadelavida@salud.gob.mx",
-      facebook: "Linea De La Vida",
-      facebookURL : "https://facebook.com/LaLineaDeLaVidamx",
+      facebook: "Conasama",
+      facebookURL : "https://facebook.com/conasamamx",
       instagram: "Conasamamx",
       instagramURL : "https://www.instagram.com/conasamamx/",
       twitter: "Conasama",
@@ -60,7 +60,9 @@ export default function MentalHealthSection() {
     {
       title: "Salvemos una vida",
       description: "",
-      number: "924-59-91 ; 945-37-77 ; 075",
+      number: "999924-59-91",
+      number2: "999945-37-77",
+      number3: "075",
       mail: "",
       facebook: "Salvemos una Vida Radio",
       facebookURL : "https://www.facebook.com/SalvemosunaVidaRadio/",
@@ -103,7 +105,21 @@ export default function MentalHealthSection() {
               <p className="skill-description">{skill.description}</p>
                 <p className="skill-text">
                   {skill.number?<Phone className="phone-icon"/>:""}
-                  {skill.number}
+                  <a href={skill.number?`tel:${skill.number}`:"/"}>
+                    {skill.number}
+                  </a>
+                </p>
+                <p className="skill-text">
+                  {skill.number2?<Phone className="phone-icon"/>:""}
+                  <a href={skill.number2?`tel:${skill.number2}`:"/"}>
+                    {skill.number2}
+                  </a>
+                </p>
+                <p className="skill-text">
+                  {skill.number3?<Phone className="phone-icon"/>:""}
+                  <a href={skill.number3?`tel:${skill.number3}`:"/"}>
+                    {skill.number3}
+                  </a>
                 </p>
                 <p className="skill-text">
                   {skill.mail?<Mail className="mail-icon"/>:""}
