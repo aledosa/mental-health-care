@@ -47,7 +47,7 @@ export default function MentalHealthSection() {
     },
     {
       title: "Línea de la Vida",
-      description: "",
+      description: "Líneas de apoyo",
       number: "800-911-2000",
       mail: "lalineadelavida@salud.gob.mx",
       facebook: "Conasama",
@@ -59,7 +59,7 @@ export default function MentalHealthSection() {
     },
     {
       title: "Salvemos una vida",
-      description: "",
+      description: "Líneas de apoyo",
       number: "999924-59-91",
       number2: "999945-37-77",
       number3: "075",
@@ -80,7 +80,7 @@ export default function MentalHealthSection() {
     },
     {
       title: "Programa para la atención del suicidio (PIAS)",
-      description: "",
+      description: "Línea de apoyo",
       number: "9993-10-36-62",
       mail: "",
       facebook: "",

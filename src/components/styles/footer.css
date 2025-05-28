@@ -22,7 +22,7 @@
   .footer-logo {
     font-size: var(--font-size-2xl);
     font-weight: var(--font-weight-light);
-    color: var(--color-accent-2);
+    color: var(--color-accent-link);
     letter-spacing: -0.05em;
   }
   
@@ -45,7 +45,7 @@
   }
   
   .footer-link:hover {
-    color: var(--color-accent-2);
+    color: var(--color-accent-link);
   }
   
   @media (min-width: 768px) {
